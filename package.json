@@ -1,14 +1,15 @@
 {
   "name": "eslint-quick-config",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.1",
+  "private":false,
+  "repository": {
+    "url": "claudiobzrr/eslint-quick-config"
   },
+  "description": "A simple eslint config with prettier plugin",
+  "main": "index.js",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "claudiobzrr",
+  "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.60.1",
