@@ -26,5 +26,10 @@ module.exports ={
             semi:true,
             endOfLine:'auto'
         }]
+    },
+    settings: {
+        'import/parsers': {
+          [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
+        },
     }
 }
