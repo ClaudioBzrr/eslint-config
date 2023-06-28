@@ -1,9 +1,9 @@
 {
-  "name": "eslint-config-fast",
+  "name": "@claudiobzrr/eslint-config",
   "version": "0.0.1",
   "private":false,
   "repository": {
-    "url": "claudiobzrr/eslint-config-fast"
+    "url": "claudiobzrr/eslint-config"
   },
   "description": "A simple eslint config with prettier plugin",
   "main": "index.js",
