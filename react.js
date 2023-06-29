@@ -3,11 +3,6 @@ module.exports ={
         browser: true,
         es2021: true
     },
-    settings: {
-        react:{
-            version:'detect'
-        }
-    },
     extends: [
         'prettier',
         'eslint:recommended',
@@ -39,6 +34,9 @@ module.exports ={
         
     },
     settings: {
+        react:{
+            version:'detect'
+        },
         'import/parsers': {
           [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
         },
