@@ -10,7 +10,9 @@ To  install this template, use the command bellow :
 
 To use it, extend the config in eslintrc file : 
 
- - Node : `extends:["@claudiobzrr/eslint-config/node"]`
- - React : `extends:["@claudiobzrr/eslint-config/react"]`
+ - Node :
+`extends:["@claudiobzrr/eslint-config/node"]`
+ - React :
+`extends:["@claudiobzrr/eslint-config/react"]`
 
  
